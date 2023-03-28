@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BandeauComponent } from './header/bandeau/bandeau.component';
 import { FooterComponent } from './footer/footer.component';
+import { CatalogueComponent } from './catalogue/catalogue.component';
+import { ProduitComponent } from './catalogue/produit/produit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BandeauComponent,
-    FooterComponent
+    FooterComponent,
+    CatalogueComponent,
+    ProduitComponent
   ],
   imports: [
     BrowserModule,
